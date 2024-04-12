@@ -19,7 +19,7 @@ sudo apt install kicad kicad-templates kicad-doc-en kicad-symbols kicad-footprin
 
 #### Libraries
 
-Add `MAME.kib` and `netlist.lib` to your library list:
+Add `MAME.lib` and `netlist.lib` to your library list:
 
 Preferences-> Manage Symbol Libraries -> Add existing library
 
@@ -44,7 +44,7 @@ obxVoice  | TBD
 tb303 | TBD 
 carPolo | TBD 
 StarCruiser | TBD 
-wildfire | TBD 
+wildfire | migrated to 8
 
 ### Specific components
 
@@ -109,8 +109,12 @@ Convert an exported spice file (suffix cir) to netlist format using:
 ```sh 
 nltool -c convert -f congoBongo.cir > nl_congo_bongo.cpp
 ```
+### Development aids
+As a replacement for the retired aatool, you may want to look at
+https://github.com/aovestdipaperino/aa-tool
 
+For schematics involving multi-part devices, you may want to use
+https://github.com/devbisme/kinparse
+to convert the netlists.
 
-
-
-
+For a very short example guide you may want to look at Example.md in this folder.

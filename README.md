@@ -113,8 +113,7 @@ nltool -c convert -f congoBongo.cir > nl_congo_bongo.cpp
 As a replacement for the retired aatool, you may want to look at
 https://github.com/aovestdipaperino/aa-tool
 
-For schematics involving multi-part devices, you may want to use
-https://github.com/devbisme/kinparse
-to convert the netlists.
+For schematics involving multi-part devices, you may want to use nlconvert from
+https://github.com/stonedDiscord/netlist-tools
 
 For a very short example guide you may want to look at Example.md in this folder.

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "wildfire-rescue")(type "Legacy")(uri "${KIPRJMOD}/wildfire-rescue.lib")(options "")(descr ""))
+  (lib (name "MAME")(type "Legacy")(uri "/home/stoned/discrete/kicad/MAME.lib")(options "")(descr ""))
+)

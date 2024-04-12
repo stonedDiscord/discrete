@@ -13,8 +13,7 @@ This repository is meant to house files in formats that can be imported and work
 Going forward you will need at least KiCad 5.1. On Ubuntu you can install KiCad using 
 
 ```sh
-sudo add-apt-repository ppa:js-reynaud/kicad-5.1
-sudo apt-get update
+sudo apt update
 sudo apt install kicad kicad-templates kicad-doc-en kicad-symbols kicad-footprints kicad-demos kicad-packages3d libngspice-kicad kicad-libraries
 ```
 
